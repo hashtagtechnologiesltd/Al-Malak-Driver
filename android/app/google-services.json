@@ -1,0 +1,83 @@
+{
+  "project_info": {
+    "project_number": "6774690708",
+    "firebase_url": "https://almalak-ab478-default-rtdb.firebaseio.com",
+    "project_id": "almalak-ab478",
+    "storage_bucket": "almalak-ab478.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:6774690708:android:b1f1ffad345c5280477581",
+        "android_client_info": {
+          "package_name": "com.almalak.drivers"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "6774690708-6khp5g77dobatsrunnqvn45ta92ptie0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2ShRUtuWJbz7lBH2dJ8MuLvsJk13a8S8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "6774690708-6khp5g77dobatsrunnqvn45ta92ptie0.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "6774690708-8351tr531i8u33ohi5l75snp8lholh1n.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.almalak.drivers"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:6774690708:android:98fd7ffe08972e49477581",
+        "android_client_info": {
+          "package_name": "com.almalak.users"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "6774690708-6khp5g77dobatsrunnqvn45ta92ptie0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2ShRUtuWJbz7lBH2dJ8MuLvsJk13a8S8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "6774690708-6khp5g77dobatsrunnqvn45ta92ptie0.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "6774690708-8351tr531i8u33ohi5l75snp8lholh1n.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.almalak.drivers"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
