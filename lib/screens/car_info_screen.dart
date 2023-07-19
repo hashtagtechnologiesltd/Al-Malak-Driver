@@ -1,10 +1,11 @@
-import 'package:drivers/splashScreen/splash_screen.dart';
+
 import 'package:firebase_database/firebase_database.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 
 import '../global/global.dart';
+import '../splashScreen/splash_screen.dart';
 
 class CarInfoScreen extends StatefulWidget {
   const CarInfoScreen({Key? key}) : super(key: key);

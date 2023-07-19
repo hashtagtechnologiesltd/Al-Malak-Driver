@@ -1,4 +1,4 @@
-import 'package:drivers/screens/register_screen.dart';
+import 'package:al_malak_drivers/screens/register_screen.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_database/firebase_database.dart';
 import 'package:flutter/material.dart';
@@ -86,8 +86,7 @@ class _OTPScreenRegisterState extends State<OTPScreenRegister> {
 
                           ElevatedButton(
                               style: ElevatedButton.styleFrom(
-                                primary: darkTheme ? Colors.amber.shade400 : Colors.blue,
-                                onPrimary: darkTheme ? Colors.black : Colors.white,
+                                foregroundColor: darkTheme ? Colors.black : Colors.white, backgroundColor: darkTheme ? Colors.amber.shade400 : Colors.blue,
                                 elevation: 0,
                                 shape: RoundedRectangleBorder(
                                   borderRadius: BorderRadius.circular(32),

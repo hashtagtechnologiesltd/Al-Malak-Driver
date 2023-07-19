@@ -1,11 +1,9 @@
-import 'package:drivers/screens/register_screen.dart';
+import 'package:al_malak_drivers/screens/register_screen.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_database/firebase_database.dart';
 import 'package:flutter/material.dart';
 import 'package:fluttertoast/fluttertoast.dart';
-import 'package:intl_phone_field/intl_phone_field.dart';
 import 'package:pinput/pinput.dart';
-
 import '../global/global.dart';
 import '../splashScreen/splash_screen.dart';
 import 'login_screen.dart';

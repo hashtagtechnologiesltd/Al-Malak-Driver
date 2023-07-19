@@ -1,5 +1,7 @@
-import 'package:drivers/splashScreen/splash_screen.dart';
+
 import 'package:flutter/material.dart';
+
+import '../splashScreen/splash_screen.dart';
 
 class FareAmountCollectionDialog extends StatefulWidget {
   double? totalFareAmount;

@@ -1,5 +1,5 @@
-import 'package:drivers/splashScreen/splash_screen.dart';
-import 'package:drivers/themeProvider/theme_provider.dart';
+import 'package:al_malak_drivers/splashScreen/splash_screen.dart';
+import 'package:al_malak_drivers/themeProvider/theme_provider.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
@@ -29,7 +29,7 @@ class MyApp extends StatelessWidget {
         theme: MyThemes.lightTheme,
         darkTheme: MyThemes.darkTheme,
         debugShowCheckedModeBanner: false,
-        home: SplashScreen(),
+        home: const SplashScreen(),
       ),
     );
   }

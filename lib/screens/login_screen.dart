@@ -1,14 +1,13 @@
-import 'package:drivers/screens/register_screen.dart';
-import 'package:drivers/splashScreen/splash_screen.dart';
-import 'package:email_validator/email_validator.dart';
+
+import 'package:al_malak_drivers/screens/register_screen.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_database/firebase_database.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 import 'package:intl_phone_field/intl_phone_field.dart';
 
 import '../global/global.dart';
+import '../splashScreen/splash_screen.dart';
 import 'forgot_password_screen.dart';
 import 'main_screen.dart';
 import 'otp_screen_login.dart';

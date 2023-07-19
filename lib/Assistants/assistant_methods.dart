@@ -1,21 +1,16 @@
-
 import 'dart:async';
-
-import 'package:drivers/Assistants/request_assistant.dart';
-import 'package:drivers/models/trips_history_model.dart';
-import 'package:firebase_auth/firebase_auth.dart';
+import 'package:al_malak_drivers/Assistants/request_assistant.dart';
 import 'package:firebase_database/firebase_database.dart';
 import 'package:flutter_geofire/flutter_geofire.dart';
 import 'package:geolocator/geolocator.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
 import 'package:provider/provider.dart';
-
-
 import '../global/global.dart';
 import '../global/map_key.dart';
 import '../infoHandler/app_info.dart';
 import '../models/direction_details_info.dart';
 import '../models/directions.dart';
+import '../models/trips_history_model.dart';
 import '../models/user_model.dart';
 
 class AssistantMethods {

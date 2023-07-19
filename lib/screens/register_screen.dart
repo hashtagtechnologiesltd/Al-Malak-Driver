@@ -1,14 +1,8 @@
-import 'package:drivers/screens/car_info_screen.dart';
-import 'package:drivers/screens/main_screen.dart';
-import 'package:email_validator/email_validator.dart';
 import 'package:firebase_auth/firebase_auth.dart';
-import 'package:firebase_database/firebase_database.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 import 'package:intl_phone_field/intl_phone_field.dart';
-
-import '../global/global.dart';
 import 'otp_screen_register.dart';
 
 
@@ -36,7 +30,6 @@ class _RegisterScreenState extends State<RegisterScreen> {
   List<String> carTypes = ["Car", "CNG", "Bike"];
   String? selectedCarType;
 
-  bool _passwordVisible = false;
 
   //declare a GlobalKey
   final _formKey = GlobalKey<FormState>();
@@ -541,8 +534,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
 
                             ElevatedButton(
                               style: ElevatedButton.styleFrom(
-                                primary: darkTheme ? Colors.amber.shade400 : Colors.blue,
-                                onPrimary: darkTheme ? Colors.black : Colors.white,
+                                foregroundColor: darkTheme ? Colors.black : Colors.white, backgroundColor: darkTheme ? Colors.amber.shade400 : Colors.blue,
                                 elevation: 0,
                                 shape: RoundedRectangleBorder(
                                   borderRadius: BorderRadius.circular(32),

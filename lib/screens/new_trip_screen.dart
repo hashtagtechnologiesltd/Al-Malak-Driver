@@ -1,19 +1,18 @@
 import 'dart:async';
-import 'dart:ui';
-
-import 'package:drivers/Assistants/assistant_methods.dart';
-import 'package:drivers/Assistants/black_theme_google_map.dart';
-import 'package:drivers/global/global.dart';
-import 'package:drivers/models/user_ride_request_information.dart';
-import 'package:drivers/splashScreen/splash_screen.dart';
-import 'package:drivers/widgets/fare_amount_collection_dialog.dart';
-import 'package:drivers/widgets/progress_dialog.dart';
 import 'package:firebase_database/firebase_database.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_polyline_points/flutter_polyline_points.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 import 'package:geolocator/geolocator.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
+
+import '../Assistants/assistant_methods.dart';
+import '../Assistants/black_theme_google_map.dart';
+import '../global/global.dart';
+import '../models/user_ride_request_information.dart';
+import '../splashScreen/splash_screen.dart';
+import '../widgets/fare_amount_collection_dialog.dart';
+import '../widgets/progress_dialog.dart';
 
 class NewTripScreen extends StatefulWidget {
 

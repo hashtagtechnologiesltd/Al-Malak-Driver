@@ -1,5 +1,4 @@
-import 'package:drivers/global/global.dart';
-import 'package:drivers/splashScreen/splash_screen.dart';
+
 import 'package:flutter/material.dart';
 
 import '../tabPages/earning_tab.dart';

@@ -1,5 +1,5 @@
-import 'package:drivers/screens/profile_screen.dart';
-import 'package:flutter/cupertino.dart';
+
+import 'package:al_malak_drivers/screens/profile_screen.dart';
 import 'package:flutter/material.dart';
 
 import '../global/global.dart';

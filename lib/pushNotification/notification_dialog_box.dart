@@ -1,11 +1,12 @@
-import 'package:assets_audio_player/assets_audio_player.dart';
-import 'package:drivers/Assistants/assistant_methods.dart';
-import 'package:drivers/global/global.dart';
-import 'package:drivers/models/user_ride_request_information.dart';
-import 'package:drivers/screens/new_trip_screen.dart';
+// import 'package:assets_audio_player/assets_audio_player.dart';
 import 'package:firebase_database/firebase_database.dart';
 import 'package:flutter/material.dart';
 import 'package:fluttertoast/fluttertoast.dart';
+
+import '../Assistants/assistant_methods.dart';
+import '../global/global.dart';
+import '../models/user_ride_request_information.dart';
+import '../screens/new_trip_screen.dart';
 
 class NotificationDialogBox extends StatefulWidget {
 
@@ -137,14 +138,14 @@ class _NotificationDialogBoxState extends State<NotificationDialogBox> {
                 children: [
                   ElevatedButton(
                     onPressed: () {
-                      audioPlayer.pause();
-                      audioPlayer.stop();
-                      audioPlayer = AssetsAudioPlayer();
+                      // audioPlayer.pause();
+                      // audioPlayer.stop();
+                      // audioPlayer = AssetsAudioPlayer();
 
                       Navigator.pop(context);
                     },
                     style: ElevatedButton.styleFrom(
-                      primary: Colors.red,
+                      backgroundColor: Colors.red,
                     ),
                     child: Text(
                       "Cancel".toUpperCase(),
@@ -158,14 +159,14 @@ class _NotificationDialogBoxState extends State<NotificationDialogBox> {
 
                   ElevatedButton(
                     onPressed: () {
-                      audioPlayer.pause();
-                      audioPlayer.stop();
-                      audioPlayer = AssetsAudioPlayer();
+                      // audioPlayer.pause();
+                      // audioPlayer.stop();
+                      // audioPlayer = AssetsAudioPlayer();
 
                       acceptRideRequest(context);
                     },
                     style: ElevatedButton.styleFrom(
-                      primary: Colors.green,
+                      backgroundColor: Colors.green,
                     ),
                     child: Text(
                       "Accept".toUpperCase(),

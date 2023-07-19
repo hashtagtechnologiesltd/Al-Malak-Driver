@@ -1,16 +1,14 @@
-
-
-
-import 'package:assets_audio_player/assets_audio_player.dart';
-import 'package:drivers/global/global.dart';
-import 'package:drivers/models/user_ride_request_information.dart';
-import 'package:drivers/pushNotification/notification_dialog_box.dart';
+// import 'package:assets_audio_player/assets_audio_player.dart';
 import 'package:firebase_database/firebase_database.dart';
 import 'package:firebase_messaging/firebase_messaging.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
+
+import '../global/global.dart';
+import '../models/user_ride_request_information.dart';
+import 'notification_dialog_box.dart';
 
 class PushNotificationSystem{
   FirebaseMessaging messaging = FirebaseMessaging.instance;
@@ -43,8 +41,8 @@ class PushNotificationSystem{
         FirebaseDatabase.instance.ref().child("All Ride Requests").child(userRideRequestId).once().then((snapData){
           if(snapData.snapshot.value != null){
 
-            audioPlayer.open(Audio("music/music_notification.mp3"));
-            audioPlayer.play();
+            // audioPlayer.open(Audio("music/music_notification.mp3"));
+            // audioPlayer.play();
 
             double originLat = double.parse((snapData.snapshot.value! as Map)["origin"]["latitude"]);
             double originLng = double.parse((snapData.snapshot.value! as Map)["origin"]["longitude"]);

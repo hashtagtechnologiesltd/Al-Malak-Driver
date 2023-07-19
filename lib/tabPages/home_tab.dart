@@ -1,7 +1,4 @@
 import 'dart:async';
-
-import 'package:drivers/Assistants/assistant_methods.dart';
-import 'package:drivers/global/global.dart';
 import 'package:firebase_database/firebase_database.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
@@ -10,7 +7,9 @@ import 'package:fluttertoast/fluttertoast.dart';
 import 'package:geolocator/geolocator.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
 
+import '../Assistants/assistant_methods.dart';
 import '../Assistants/black_theme_google_map.dart';
+import '../global/global.dart';
 import '../pushNotification/push_notification_system.dart';
 
 class HomeTabPage extends StatefulWidget {
